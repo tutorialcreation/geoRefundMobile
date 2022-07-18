@@ -26,3 +26,12 @@ npm install
 ```
 npm start
 ```
+
+If you want to understand how this dapp works, you can access the information from here:
+
+https://medium.com/@tutorialcreation81/how-to-build-an-ethereum-dapp-bdebbda6d74e
+
+A link to deployed contract and can be tested from this link:
+
+csb-d1wm5o.netlify.app/
+
