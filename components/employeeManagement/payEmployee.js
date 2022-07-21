@@ -24,7 +24,7 @@ const startPayment = async ({ setError, setTxs, ether, addr }) => {
   }
 };
 
-export default function App() {
+export default function Pay() {
   const [error, setError] = useState();
   const [txs, setTxs] = useState([]);
 
