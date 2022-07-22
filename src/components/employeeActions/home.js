@@ -1,7 +1,7 @@
-
+import React from "react";
 import { Outlet, Link } from "react-router-dom";
 
-const employeeDashboard = () => {
+const EmployeeDashboard = () => {
   return (
     <>
       <nav>
@@ -23,4 +23,4 @@ const employeeDashboard = () => {
   )
 };
 
-export default employeeDashboard;
+export default EmployeeDashboard;

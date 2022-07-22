@@ -1,8 +1,8 @@
-import { useState } from "react";
+import React,{ useState } from "react";
 
-export default function checkCompliance(){
+export default function GetFeedback(){
     const handleSubmit = async(e)=>{
-        e.preventDefault
+        e.preventDefault()
         console.log("todo")
     }
     return(
@@ -10,7 +10,7 @@ export default function checkCompliance(){
             <button
                 type="submit"
             >
-                verify
+                fetch feedback
             </button>
         </form>
     )

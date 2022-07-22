@@ -1,9 +1,9 @@
-import { useState } from "react";
+import React,{ useState } from "react";
 import checkCompliance from "./checkCompliance";
 import getEmployee from "./getEmployee";
 
 
-export default function getEmployee(){
+export default function GetEmployee(){
     return (
         <div>
            <p>latitude:</p> 

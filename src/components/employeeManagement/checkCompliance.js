@@ -1,6 +1,6 @@
-import {useState} from "react";
+import React,{ useState } from "react";
 
-export default function removeEmployee(){
+export default function CheckCompliance(){
     const handleSubmit = async(e)=>{
         e.preventDefault()
         console.log("todo")
@@ -10,7 +10,7 @@ export default function removeEmployee(){
             <button
                 type="submit"
             >
-                remove
+                verify
             </button>
         </form>
     )

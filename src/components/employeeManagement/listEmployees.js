@@ -1,7 +1,7 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import Pay from "./payEmployee";
 
-export default function listEmployees(){
+export default function ListEmployees(){
     const [employees,setEmployees] = useState();
     return(
         <table>

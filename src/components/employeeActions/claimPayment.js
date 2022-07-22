@@ -1,6 +1,6 @@
-import { useState } from "react";
+import React,{ useState } from "react";
 
-export default function claimPayment(){
+export default function ClaimPayment(){
     const handleSubmit = async(e)=>{
         e.preventDefault()
         console.log("todo")
