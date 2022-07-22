@@ -1,7 +1,7 @@
 
 import { Outlet, Link } from "react-router-dom";
 
-const Dashboard = () => {
+const employeeDashboard = () => {
   return (
     <>
       <nav>
@@ -10,10 +10,10 @@ const Dashboard = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/admin">Admin</Link>
+            <Link to="/claimPayment">Claim Payment</Link>
           </li>
           <li>
-            <Link to="/employee">Employee</Link>
+            <Link to="/getFeedback">Get Feedback</Link>
           </li>
         </ul>
       </nav>
@@ -23,4 +23,4 @@ const Dashboard = () => {
   )
 };
 
-export default Dashboard;
+export default employeeDashboard;

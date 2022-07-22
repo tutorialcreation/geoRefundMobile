@@ -1,7 +1,8 @@
 
 import { Outlet, Link } from "react-router-dom";
+import listEmployees from "./listEmployees";
 
-const Dashboard = () => {
+const employerDashboard = () => {
   return (
     <>
       <nav>
@@ -10,17 +11,18 @@ const Dashboard = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/admin">Admin</Link>
+            <Link to="/addEmployee">Add Employee</Link>
           </li>
           <li>
-            <Link to="/employee">Employee</Link>
           </li>
         </ul>
       </nav>
 
       <Outlet />
+      <listEmployees/>
+     
     </>
   )
 };
 
-export default Dashboard;
+export default employerDashboard;
