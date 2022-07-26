@@ -8,8 +8,8 @@ library Calculations {
     function callMulMod(uint x, uint y, uint z) public pure returns(uint){
         return mulmod(x, y, z);
     }
-    function calculateDistance(uint x) public pure returns (uint) {
-        return x * 2;
+    function calculateSquare(uint x) public pure returns (uint) {
+        return x * x;
     }
 
     function calculateSqrt(uint x) public  pure returns (uint y){
@@ -21,5 +21,8 @@ library Calculations {
         }
     }
 
+    function calculateSum(uint x, uint y) public pure returns (uint) {
+        return x + y;
+    }
 
 }
