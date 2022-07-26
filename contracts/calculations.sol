@@ -5,8 +5,8 @@ contract Calculations {
     function callAddMod(uint x, uint y, uint z) public pure returns(uint){
         return addmod(x, y, z);
     }
-    function callMulMod() public pure returns(uint){
-        return mulmod(4, 5, 3);
+    function callMulMod(uint x, uint y, uint z) public pure returns(uint){
+        return mulmod(x, y, z);
     }
     function calculateDistance(uint x) public pure returns (uint) {
         return x * 2;
