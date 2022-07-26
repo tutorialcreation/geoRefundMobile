@@ -14,7 +14,7 @@ contract refunder{
     employee[] public employees;
 
     address public employer;
-    bool public  complianceStatus;
+    bool public complianceStatus;
     
     function addEmployee(
         address identity,
