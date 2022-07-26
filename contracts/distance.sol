@@ -2,8 +2,8 @@
 pragma solidity ^0.8.4;
 
 contract DistanceCalculations {   
-    function callAddMod() public pure returns(uint){
-        return addmod(4, 5, 3);
+    function callAddMod(uint x, uint y, uint z) public pure returns(uint){
+        return addmod(x, y, z);
     }
     function callMulMod() public pure returns(uint){
         return mulmod(4, 5, 3);
@@ -20,5 +20,6 @@ contract DistanceCalculations {
             z = (x / z + z)/2;
         }
     }
+
 
 }
