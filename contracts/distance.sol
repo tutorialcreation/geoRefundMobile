@@ -17,6 +17,7 @@ contract DistanceCalculations {
         y = x;
         while(z < y){
             y = z;
+            z = (x / z + z)/2;
         }
     }
 
