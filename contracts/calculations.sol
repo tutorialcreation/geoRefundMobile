@@ -1,7 +1,7 @@
 // Helper function defined outside of a contract
 pragma solidity ^0.8.4;
 
-contract DistanceCalculations {   
+contract Calculations {   
     function callAddMod(uint x, uint y, uint z) public pure returns(uint){
         return addmod(x, y, z);
     }
