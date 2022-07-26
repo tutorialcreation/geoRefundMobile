@@ -25,4 +25,8 @@ library Calculations {
         return x + y;
     }
 
+    function calculateDiff(uint x, uint y) public pure returns (uint) {
+        return x - y;
+    }
+
 }
