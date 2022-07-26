@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React,{ useState } from "react";
 import { ethers } from "ethers";
 import ErrorMessage from "./ErrorMessage";
 import TxList from "./TxList";
@@ -24,7 +24,7 @@ const startPayment = async ({ setError, setTxs, ether, addr }) => {
   }
 };
 
-export default function App() {
+export default function Pay() {
   const [error, setError] = useState();
   const [txs, setTxs] = useState([]);
 
