@@ -14,7 +14,8 @@ contract DistanceCalculations {
 
     function calculateSqrt(uint x) public  pure returns (uint y){
         uint z = (x+1)/2;
-        
+        y = x;
+
     }
 
 }
